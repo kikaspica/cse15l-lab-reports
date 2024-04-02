@@ -50,8 +50,23 @@
   * This is not an error.
 
 2. With path to a **directory** as an argument
-3. With a path to a **file** as an argument
+  ```
+  kyang@Kellys-MacBook-Air ~ % ls lecture1
+  Hello.class     Hello.java      README          messages
+  ```
+  * **Absolute path**: `/Users/kyang/lecture1`
+  * I got this output because `ls` returns a list of all the folders and files at the path provided.
+  * This is not an error.
 
+3. With a path to a **file** as an argument
+   ```
+   kyang@Kellys-MacBook-Air ~ % ls Hello.java
+   ls: Hello.java: No such file or directory
+   ```
+   * **Absolute path**: `/Users/kyang/lecture1`
+   * I got this output because `ls` is expecting a path to a directory, not a file.
+   * This output is an error! This is because `ls` expects a path to a directory, not a file. Since I provided a path to a file, it was unable list the folders and files.
+  
 ## Using `cat`
 1. With**out** arguments
 2. With path to a **directory** as an argument
