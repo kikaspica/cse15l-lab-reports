@@ -70,12 +70,10 @@
   
 ## Using `cat`
 1. With**out** arguments
-   ```
-   kyang@Kellys-MacBook-Air ~ % cat
-
-
-   ```
+   
+   ![Image](catNoArguments.png)
+   
    * **Absolute path**: `/Users/kyang`
    * I got no output because
-3. With path to a **directory** as an argument
-4. With a path to a **file** as an argument
+2. With path to a **directory** as an argument
+3. With a path to a **file** as an argument
