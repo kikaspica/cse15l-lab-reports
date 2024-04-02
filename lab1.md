@@ -29,8 +29,8 @@
 
 ## Using `ls`
 1. With**out** arguments
-   ```
-   kyang@Kellys-MacBook-Air ~ % ls
+  ```
+  kyang@Kellys-MacBook-Air ~ % ls
   Applications
   Desktop
   Documents
@@ -43,7 +43,8 @@
   Public
   Sites
   lecture1
-   ```
+  ```
+
   * **Absolute path**: `/Users/kyang`
   * I got this output because `ls` returns a list of all the folders and files at the current directory if not provided a path.
   * This is not an error.
