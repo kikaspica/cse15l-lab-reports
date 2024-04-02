@@ -9,7 +9,6 @@
   * I got this output because `cd` is meant to change the current working directory. However, I didn't provide a path, so nothing happened.
   * While the output isn't an error, `cd` expects a path to a directory. 
 
-
 2. With path to a **directory** as an argument
      ```
      kyang@Kellys-MacBook-Air ~ % cd lecture1
@@ -20,6 +19,13 @@
   * This output is not an error. 
 
 3. With a path to a **file** as an argument
+   ```
+   kyang@Kellys-MacBook-Air lecture1 % cd Hello.java
+   cd: not a directory: Hello.java
+   ```
+   * **Absolute path**: `/Users/kyang/lecture1`
+   * I got this output because `cd` is expecting a path to a directory, not a file.
+   * This output is an error! This is because `cd` expects a path to a directory, not a file. Since I provided a path to a file, it was unable to change my working directory. 
 
 ## Using `ls`
 1. With**out** arguments
