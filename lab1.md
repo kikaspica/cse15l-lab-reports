@@ -64,11 +64,18 @@
    kyang@Kellys-MacBook-Air ~ % ls Hello.java
    ls: Hello.java: No such file or directory
    ```
-   * **Absolute path**: `/Users/kyang/lecture1`
-   * I got this output because `ls` is expecting a path to a directory, not a file.
-   * This output is an error! This is because `ls` expects a path to a directory, not a file. Since I provided a path to a file, it was unable list the folders and files.
+* **Absolute path**: `/Users/kyang/lecture1`
+* I got this output because `ls` is expecting a path to a directory, not a file.
+* This output is an error! This is because `ls` expects a path to a directory, not a file. Since I provided a path to a file, it was unable list the folders and files.
   
 ## Using `cat`
 1. With**out** arguments
-2. With path to a **directory** as an argument
-3. With a path to a **file** as an argument
+   ```
+   kyang@Kellys-MacBook-Air ~ % cat
+
+
+   ```
+   * **Absolute path**: `/Users/kyang`
+   * I got no output because
+3. With path to a **directory** as an argument
+4. With a path to a **file** as an argument
