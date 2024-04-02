@@ -9,6 +9,7 @@
   * I got this output because `cd` is meant to change the current working directory. However, I didn't provide a path, so nothing happened.
   * While the output isn't an error, `cd` expects a path to a directory. 
 
+  
 2. With path to a **directory** as an argument
      ```
      kyang@Kellys-MacBook-Air ~ % cd lecture1
