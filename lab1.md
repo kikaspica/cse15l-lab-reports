@@ -74,6 +74,23 @@
    ![Image](catNoArguments.png)
    
    * **Absolute path**: `/Users/kyang`
-   * I got no output because
+   * I got no output because `cat` is used to print the contents of the file(s) provided. I didn't provide any files, so it reads from standard input.
+   * This isn't an error, but `cat` expects one or more paths.
+  
 2. With path to a **directory** as an argument
+   ```
+   kyang@Kellys-MacBook-Air ~ % cat lecture1
+   cat: lecture1: Is a directory
+   ```
+   * **Absolute path**: `/Users/kyang`
+   * I got this output because `cat` is used to print the contents of the file(s) provided, but I provided a path to a directory instead.
+   * This is an error because `cat` expects paths to files, not directories.
+    
 3. With a path to a **file** as an argument
+   ```
+   kyang@Kellys-MacBook-Air ~ % cat /Users/kyang/lecture1/messages/en-us.txt
+   Hello World!
+   ```
+   * **Absolute path**: `/Users/kyang`
+   * I got this output because `cat` prints out the contents of the file(s) provided. Since I gave it the path to the `en-us.txt` file, it printed out the contents of that file.
+   * This is not an error.
