@@ -37,10 +37,24 @@ public class ChatServer {
     }
 }
 ```
-First Message:
-![First message sent on ChatServer](lab2Images/chatServerImage1.png)
-Second Message:
+<ins>**First Message:**</ins>
+![First message sent on ChatServer](lab2Images/chatServerImage1.png) 
+1. Which methods in your code are called?
+    * a
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the **class**?
+    * a
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+    * a
+
+<ins>**Second Message:**</ins>
 ![Second message sent on ChatServer](lab2Images/chatServerImage2.png)
+1. Which methods in your code are called?
+    * a
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the **class**?
+    * a
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+    * aa
+
 ## Part 2 - SSH Keys
 何何
 ## Part 3 - Something I Learned
