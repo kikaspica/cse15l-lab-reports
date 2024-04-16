@@ -37,7 +37,10 @@ public class ChatServer {
     }
 }
 ```
-
+First Message:
+![First message sent on ChatServer](lab2Images/chatServerImage1.png)
+Second Message:
+![Second message sent on ChatServer](lab2Images/chatServerImage2.png)
 ## Part 2 - SSH Keys
 何何
 ## Part 3 - Something I Learned
