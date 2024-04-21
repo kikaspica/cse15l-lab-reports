@@ -6,8 +6,8 @@
     kyang@Kellys-MacBook-Air ~ %
     ```
     * **Absolute path**: `/Users/kyang`
-    * I got this output because `cd` is meant to change the current working directory. However, I didn't provide a path, so nothing happened.
-    * While the output isn't an error, `cd` expects a path to a directory. 
+    * I got this output because `cd` is meant to change the current working directory. However, I didn't provide a path and I am already in the home directory, so nothing happened. When `cd` is used without arguments, it changes your working directory to the home directory. 
+    * This output is not an error. 
 
   
 2. With path to a **directory** as an argument
