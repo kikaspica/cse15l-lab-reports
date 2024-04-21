@@ -11,11 +11,11 @@
 
   
 2. With path to a **directory** as an argument
-        ```
 
+   ```
         kyang@Kellys-MacBook-Air ~ % cd lecture1
         kyang@Kellys-MacBook-Air lecture1 %
-
+   ```
    
     * **Absolute path**: `/Users/kyang/lecture1`
     * I got this output because `cd` changes the current working directory to the given path. Everything before the `%` shows that my current working directory is now `lecture1`.
