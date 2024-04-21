@@ -13,8 +13,8 @@
 2. With path to a **directory** as an argument
 
    ```
-        kyang@Kellys-MacBook-Air ~ % cd lecture1
-        kyang@Kellys-MacBook-Air lecture1 %
+   kyang@Kellys-MacBook-Air ~ % cd lecture1
+   kyang@Kellys-MacBook-Air lecture1 %
    ```
    
     * **Absolute path**: `/Users/kyang/lecture1`
