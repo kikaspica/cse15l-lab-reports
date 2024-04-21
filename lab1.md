@@ -16,11 +16,12 @@
        kyang@Kellys-MacBook-Air ~ % cd lecture1
        kyang@Kellys-MacBook-Air lecture1 %
        ```
+   
     * **Absolute path**: `/Users/kyang/lecture1`
     * I got this output because `cd` changes the current working directory to the given path. Everything before the `%` shows that my current working directory is now `lecture1`.
     * This output is not an error. 
 
-3. With a path to a **file** as an argument
+4. With a path to a **file** as an argument
    ```
    kyang@Kellys-MacBook-Air lecture1 % cd Hello.java
    cd: not a directory: Hello.java
