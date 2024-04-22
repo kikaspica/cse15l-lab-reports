@@ -42,18 +42,18 @@ public class ChatServer {
 1. Which methods in your code are called?
     * The `handleRequest` method was called. 
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the **class**?
-    * 
+    * The relevant argument to the `handleRequest` method is the `URI url`, as the method calls `getPath()` on `url` to handle the request given in the URL. The relevant field of the `Handler` class is `String messages`. The value of the field `messages` was an empty `String` at the beginning of the method call.
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-    * 
+    * The `messages` field was changed from this request. At the beginning of the method call, it was a blank `String`. However, by the end of the method call, it was changed to contain "kyang: hello everyone" by concatenating the message portion of the request (the part after "s=") and the username (the part after "user="). 
 
 <ins>**Second Message:**</ins>
 ![Second message sent on ChatServer](lab2Images/chatServerImage2.png)
 1. Which methods in your code are called?
-    * 
+    * The `handleRequest` method was called. 
 2. What are the relevant arguments to those methods, and the values of any relevant fields of the **class**?
-    * 
+    * The relevant argument to the `handleRequest` method is the `URI url` so that the method can call `getPath()` on it. Again, the relevant field of the `Handler` class is `String messages`. The value of the field `messages` at the beginning of the method call was a `String` containing "kyang: hello everyone". 
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-    * 
+    * The `messages` field was changed from this request. At the beginning of the method call, it was a `String` containing "kyang: hello everyone". After the method finished running, it was changed to contain "kyang: hello everyone\nAnnouncement: Welcome to the chat server". This was done by concatenating the original value of `messages` with the addition `String` to be added, called `userMsg`. `userMsg` is created by concatenating the message portion of the request and the username given in the request together. 
 
 ## Part 2 - SSH Keys
 何何
