@@ -56,14 +56,14 @@ public class ChatServer {
     * The `messages` field was changed from this request. At the beginning of the method call, it was a `String` containing "kyang: hello everyone". After the method finished running, it was changed to contain "kyang: hello everyone\nAnnouncement: Welcome to the chat server". This was done by concatenating the original value of `messages` with the addition `String` to be added, called `userMsg`. `userMsg` is created by concatenating the message portion of the request and the username given in the request together. 
 
 ## Part 2 - SSH Keys
-1.
-    ![Abs. Path for Public Key](lab2Images/lsPrivateKey.png)
-  
-2.
-    ![Abs. Path for Private Key](lab2Images/lsPublicKey.png)
-  
-3.
-    ![Login for ieng6 without password](lab2Images/noPassword.png)
+**Private Key**
+![Abs. Path for Public Key](lab2Images/lsPrivateKey.png)
+
+**Public Key**
+![Abs. Path for Private Key](lab2Images/lsPublicKey.png)
+
+**Login**
+![Login for ieng6 without password](lab2Images/noPassword.png)
 
 ## Part 3 - Something I Learned
 In labs 2 and 3, I learned how to start a server on my local machine. I also learned how to removtely connect to servers. Lastly, I learned how to create public-private key pairs so I can `ssh` and log in without my password.
