@@ -57,9 +57,11 @@ public class ChatServer {
 
 ## Part 2 - SSH Keys
 1.
-    ![Abs. Path for Public Key](lab2Images/lsPublicKey.png)
+    ![Abs. Path for Public Key](lab2Images/lsPrivateKey.png)
+  
 2.
-    ![Abs. Path for Private Key](lab2Images/lsPrivateKey.png)
+    ![Abs. Path for Private Key](lab2Images/lsPublicKey.png)
+  
 3.
     ![Login for ieng6 without password](lab2Images/noPassword.png)
 
