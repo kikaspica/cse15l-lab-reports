@@ -46,3 +46,11 @@ Bug Chosen: issue with `reverse()` method
 **5. Fix description**
 
 This fix addresses the issue because in the old code, it was re-assigning the indexes in `arr` to values in `newArray`. However, all the indexes in `newArray` have no values in them, so the method was originally clearing out `arr` and returning it. The fix changes this by assigning values from `arr` to `newArray` backwards and returns `newArray`. 
+
+## Part 2 - Researching Commands
+**Command chosen:** `find`
+
+1. `-name` option
+2. `-type` option
+3. `-size` option
+4. `-daystart` option
