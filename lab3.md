@@ -50,6 +50,7 @@ This fix addresses the issue because in the old code, it was re-assigning the in
 ## Part 2 - Researching Commands
 **Command chosen:** `find`
 
+(Source for all: https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 1. `-name` option
    ![find with -name 1](lab3Images/findName1.png)
    ![find with -name 2](lab3Images/findName2.png)
@@ -57,4 +58,8 @@ This fix addresses the issue because in the old code, it was re-assigning the in
    ![find with -type 1](lab3Images/findType1.png)
    ![find with -type 2](lab3Images/findType2.png)
 5. `-size` option
-6. `-daystart` option
+   ![find with -size 1](lab3Images/findSize1.png)
+   ![find with -size 2](lab3Images/findSize2.png)
+7. `-mtime` option
+   ![find with -mtime 1](lab3Images/findM1.png)
+   ![find with -mtime 2](lab3Images/findM2.png)
