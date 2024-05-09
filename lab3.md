@@ -19,7 +19,7 @@ Bug Chosen: issue with `reverse()` method
   }
 ```
 **3. Symptom**
-![Bug symptom](lab3JUnit.png)
+![Bug symptom](lab3Images/lab3JUnit.png)
 
 **4. Bug: Before & After**
 
