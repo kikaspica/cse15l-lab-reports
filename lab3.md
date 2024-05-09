@@ -51,6 +51,10 @@ This fix addresses the issue because in the old code, it was re-assigning the in
 **Command chosen:** `find`
 
 1. `-name` option
-2. `-type` option
-3. `-size` option
-4. `-daystart` option
+   ![find with -name 1](lab3Images/findName1.png)
+   ![find with -name 2](lab3Images/findName2.png)
+3. `-type` option
+   ![find with -type 1](lab3Images/findType1.png)
+   ![find with -type 2](lab3Images/findType2.png)
+5. `-size` option
+6. `-daystart` option
