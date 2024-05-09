@@ -1,7 +1,8 @@
 # Lab Report 3
 ## Part 1 - Bugs
 Bug Chosen: issue with `reverse()` method
-1. Failure-inducing input as a JUnit test
+
+**1. Failure-inducing input as a JUnit test**
 ```
   @Test
   public void testReverse3() {
@@ -9,7 +10,7 @@ Bug Chosen: issue with `reverse()` method
     assertArrayEquals(new int[] {1, 4, 3}, ArrayExamples.reversed(input));
   }
 ```
-2. Input that *doesn't* induce failure as a JUnit test
+**2. Input that *doesn't* induce failure as a JUnit test**
 ```
   @Test
   public void testReversed() {
@@ -17,9 +18,10 @@ Bug Chosen: issue with `reverse()` method
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
-3. Symptom
+**3. Symptom**
 ![Bug symptom](lab3JUnit.png)
-4. Bug: Before & After
+
+**4. Bug: Before & After**
 
   Before:
   ```
@@ -41,3 +43,6 @@ Bug Chosen: issue with `reverse()` method
       return newArray;
   }
   ```
+**5. Fix description**
+
+This fix addresses the issue because in the old code, it was re-assigning the indexes in `arr` to values in `newArray`. However, all the indexes in `newArray` have no values in them, so the method was originally clearing out `arr` and returning it. The fix changes this by assigning values from `arr` to `newArray` backwards and returns `newArray`. 
