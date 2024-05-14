@@ -1,11 +1,22 @@
 # Lab Report 4
 ## Step 4 - Log into ieng6
+![Logging into ieng6](lab4Images/step4.png) 
+I typed in `ssh key015@ieng6.ucsd.edu` and then pressed `<enter>` to log into my ieng6 account.
 
 ## Step 5 - Clone your fork of the repository from your Github account
+![Cloning fork](lab4Images/step5.png) 
+I typed in `git clone git@github.com:kikaspica/lab7.git` and then pressed `<enter>` to clone my fork of the lab7 repository. 
 
 ## Step 6 - Run the tests, demonstrating that they fail
+![Running tests](lab4Images/step6.png) 
+I first typed in `cd lab7` and `<enter>` to move into the `lab7` directory. I then typed in `bash test.sh` and hit `<enter>` to run the tests.
 
 ## Step 7 - Edit the code file to fix the failing test
+![Opening vim](lab4Images/step7.1.png) 
+![Editing and saving code file](lab4Images/step7.2.png) 
+I first typed in `vim List`, hit `<tab>` to autofill in `Examples` after `List`, and then finally typed `.java` and `<enter>`. 
+I pressed `<shift> + g` to move to the bottom of the file, and then pressed `kkkkkkwlllll` to move my cursor above the 1 in `index1`. The k's moved my cursor up, the w moved my cursor to the beginning of the first word (`index1`), and the l's moved my cursor right to the 1. 
+I then pressed `r` and then `2` to replace the 1 with a 2. Finally, I typed in `:wq` and `<enter>` to save my changes and exit vim. 
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
 
