@@ -104,3 +104,6 @@ Thank you! I figured out that my `fail` variable was not initialized when all th
 
 I fixed this by creating an if statement that checks if `fail` is null. If it's null, then that means all the tests passed and the script now returns the proper message. Otherwise, the operates the same as before, calculating the score by dividing successes by failures. 
 ![Fixed](lab5Images/fixed.png) 
+
+## Part 2 - Reflection
+Something I learned from my lab experience was how to write my own bash scripts. The syntax is a little confusing and finicky, and it's hard to remember how to do all the things I want to do, but overall I think it's cool and interesting to be able to write a script and run it in the terminal. It saves a lot of time when there's a sequence of terminal commands that you want to run with different arguments! I also learned how to use vim. I think it's really cool how everything in vim can be done with just the keyboard!
