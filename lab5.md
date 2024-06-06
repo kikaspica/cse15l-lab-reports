@@ -7,6 +7,7 @@ Command Ran: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
 ![Original bug](lab5Images/bug.png) 
 
 Here is my file and directory structure:
+
 ![File Structure](lab5Images/structure.png) 
 
 My `grade.sh` file is written as such (BEFORE DEBUG):
