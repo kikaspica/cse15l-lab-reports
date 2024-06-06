@@ -97,3 +97,7 @@ The student submission I used to run with `grade.sh` should be passing this test
 
 ### TA Response
 Hello! Looking at the error message you're getting, it seems the problem is in lines 52 and 53 where you declare your `success` and `score` variables. Try using `echo` around those two lines to see the values of the variables you're using in those lines. One of the variables you're using might not be initialized.
+
+### Debugged Response
+Thank you! I figured out that my `fail` variable was not initialized when all the tests passed.
+![Debug](lab5Images/debug.png) 
