@@ -101,3 +101,6 @@ Hello! Looking at the error message you're getting, it seems the problem is in l
 ### Debugged Response
 Thank you! I figured out that my `fail` variable was not initialized when all the tests passed.
 ![Debug](lab5Images/debug.png) 
+
+I fixed this by creating an if statement that checks if `fail` is null. If it's null, then that means all the tests passed and the script now returns the proper message. Otherwise, the operates the same as before, calculating the score by dividing successes by failures. 
+![Fixed](lab5Images/fixed.png) 
