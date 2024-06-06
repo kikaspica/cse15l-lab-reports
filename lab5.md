@@ -64,3 +64,26 @@ echo "Score: $score%"
 ```
 
 And my code for `TestListExamples.java` is as follows:
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+class IsMoon implements StringChecker {
+  public boolean checkString(String s) {
+    return s.equalsIgnoreCase("moon");
+  }
+}
+
+public class TestListExamples {
+  @Test
+  public void testSimpleFilter() {
+    StringChecker checker = new IsMoon();
+    List<String> input = Arrays.asList("hello", "MOON", "hey", "moonnnn");
+    List<String> expected = Arrays.asList("MOON");
+    assertEquals(expected, ListExamples.filter(input, checker));
+  }
+}
+```
+The student submission I used to run with `grade.sh` should be passing this test and it should have a score of 100%.
