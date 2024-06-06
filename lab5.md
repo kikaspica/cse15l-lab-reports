@@ -1,9 +1,10 @@
 # Lab Report 5
 ## Part 1 - Debugging Scenario
 ### Original Post
-When I run my grade.sh, I get this error.
+When I run my grade.sh, I get this error. 
+Command Ran: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
 ![Original bug](lab5Images/bug.png) 
-My `grade.sh` file is written as such:
+My `grade.sh` file is written as such (BEFORE DEBUG):
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -63,7 +64,7 @@ echo $outputLast
 echo "Score: $score%"
 ```
 
-And my code for `TestListExamples.java` is as follows:
+And my code for `TestListExamples.java` is as follows (BEFORE DEBUG):
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
