@@ -99,7 +99,7 @@ The student submission I used to run with `grade.sh` should be passing this test
 Hello! Looking at the error message you're getting, it seems the problem is in lines 52 and 53 where you declare your `success` and `score` variables. Try using `echo` around those two lines to see the values of the variables you're using in those lines. One of the variables you're using might not be initialized.
 
 ### Debugged Response
-Thank you! I figured out that my `fail` variable was not initialized when all the tests passed.
+Thank you! I figured out that my `fail` variable was not initialized when all the tests passed by using `echo`.
 ![Debug](lab5Images/debug.png) 
 
 I fixed this by creating an if statement that checks if `fail` is null. If it's null, then that means all the tests passed and the script now returns the proper message. Otherwise, the operates the same as before, calculating the score by dividing successes by failures. 
